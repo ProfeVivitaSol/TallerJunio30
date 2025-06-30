@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Wonder Woman</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <style type="text/tailwindcss">
+        body {
+        font-family: 'Inter', sans-serif;
+        background-color: #1a202c;
+        color: #e2e8f0;
+        }
+        .nav-link {
+        @apply text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
+        }
+        .nav-link.active {
+        @apply text-white bg-gray-700;
+        }
+        .section-title {
+        @apply text-2xl font-semibold text-gray-100 mb-6;
+        }
+        .card {
+        @apply bg-gray-800 shadow-lg rounded-xl overflow-hidden;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <header class="flex justify-between items-center py-6">
+            <div class="flex items-center">
+                <span class="material-icons text-pink-500 mr-2">palette</span>
+                <h1 class="text-xl font-bold text-gray-100">Wonder Woman</h1>
+            </div>
+            <nav class="flex items-center space-x-4">
+                <a class="nav-link" href="#">Acerca de Mi</a>
+                <a class="nav-link active" href="#">Educación</a>
+                <a class="nav-link" href="#">Herramientas</a>
+                <a class="nav-link" href="#">Proyectos</a>
+                <img alt="Wonder Woman avatar" class="h-8 w-8 rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-1ztFjI8nz6DX9P0_lRtTwwgdnrWttsoixIed_AzmWgSun3XTx_Tb4xPlOXbbVb3i5Dc1fX8eN_lLXLp3ju_s-LD1ezkvtecB9nBFKNJYUS6AtvX4LM3a-RqjRfW-UtZP3L9y4CFSlgVw53WHTvTuYnOpmxjR1QbR9p9Md2012jPfMT6CXzIf3ARzVKk-oeUDM2Za3ST_5XNXpPLMvKxNteoqV2CxXaZEcesukw8RMsxIN5fK3uO_Jnm9NjfpPzQn3ubY4UXmdoGI"/>
+            </nav>
+        </header>
+<main>
+    <section class="text-center py-16">
+        <img alt="Wonder Woman profile picture" class="w-32 h-32 rounded-full mx-auto mb-6 shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcQvXOXXoULPvVDdLARt0swBEQ-MfavC-lU49u00VUtz5nZJ-oCGD0L2tD20zL8U-dMRCW_gtLd9dQ1DeKB_uH0fEgaKhOiYjAxPd25uQ5poCObgSDsvKYN4DgNsPlAZgw5DzxysnkyKYOeTj2_kOs5n4FQ78PgyMeQlX5zEiixZGPJCYWz0DHHP0FoeVe8AbaPBBGRbqGMiyMpxsbgpMXDvOXMRErdEnK9B15wvpvLd9tYHKG_-YtWkLviCYdL0nYTxGpV1fohHv6"/>
+        <h2 class="text-4xl font-bold text-gray-100">Wonder Woman</h2>
+        <p class="text-xl text-gray-400 mt-2">FullStack Developer's</p>
+        <p class="text-md text-gray-500">Santiago, Chile</p>
+    </section>
+    <section class="py-12" id="about">
+        <h3 class="section-title">Acerca de Mi</h3>
+        <p class="text-gray-300 leading-relaxed">
+          I'm a product designer passionate about creating user-centered experiences. With a background in visual communication and a love for problem-solving, I strive to design intuitive and impactful products that meet user needs and business goals.
+        </p>
+    </section>
+    <section class="py-12" id="education">
+        <h3 class="section-title">Educación</h3>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+        <h4 class="text-lg font-semibold text-gray-100">Bachelor of Arts in Visual Communication, University of California, Los Angeles</h4>
+        <p class="text-gray-400">2014 - 2018</p>
+    </div>
+    </section>
+    <section class="py-12" id="tools">
+        <h3 class="section-title">Herramientas</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div class="card">
+        <img alt="Vintage eyeglasses on a surface" class="w-full h-40 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAox9_0kiwgFRF6oPWBX7s3OmShClSEb7X0nzHxmoAYjMMS9jHK80vFQjtAMBedmJ-i8IctRHkdIr54y2zhKj-_ZSz5OeTwjJqXgIo9hYSH6D1cAn_yGJb9Mj1UI5QEGy0QgyOWxCyDYN4TQqx_mgK54yGpV6T10Rd5wL4HebITkdgBHP8SYvm5wKmZZOrXMpi7nKOUjbvsLxGX7kZ44cvzpIzYavyCU-mJiro8vR8avj-vHD48RUWYY2owLA3QX5PVeW9fZbDWpvhS"/>
+        <div class="p-4">
+            <span class="inline-block bg-gray-700 text-gray-200 text-xs font-semibold px-2 py-1 rounded-full">Figma</span>
+        </div>
+    </div>
+    <div class="card">
+        <img alt="Stack of database servers" class="w-full h-40 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAm4U5aDCsp13aNXAYs6Jyftnu0VkTC0Y7PV8n0ADwnKDW8qE-AtmaUepoFk3vDVnCkle1xQLdtmClcTp-KGFxxjXnjkrZjiZWA-CQDVJUqCH39yJrynmsbMqepXIqO7q7GMmsLqF6y3i84ScSI4Wd_R2lhm4Rz3fpwmD8u45NngYYGWYb7a57sSGv1fYKCzVyG0tCe_hnHs5Hi866qkOrcKwxFpyxstbCgZSouMRLR5Ko_b9NwA9YN-i6nfB5IFRm7LcFLOD6GCYIl"/>
+        <div class="p-4">
+        <span class="inline-block bg-gray-700 text-gray-200 text-xs font-semibold px-2 py-1 rounded-full mr-2">Sketch</span>
+        <span class="inline-block bg-gray-700 text-gray-200 text-xs font-semibold px-2 py-1 rounded-full">Adobe Creative Suite</span>
+    </div>
+    </div>
+    <div class="card">
+        <img alt="Lines of code on a dark background" class="w-full h-40 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBo2v1C1_h07vlnhPJ6tHBHApIBUwikn6siz3ngdH9dkkSSE2QToGK5WO-MK3Yzk4vRYCRhPyeq-Oy07cgXG3oZx4SfRPtjrI0MzGWlMmP2dsZi5PNs2CLV6KdX2MIKyul2tOO4e6X9Z_ftzu_lI1egmBGV7YNawd9SwSWg0BWmsVkQgHsEN18hFntm2J32q6UFIZX5CZQgb5c6BiVu7kuiWlSXn0Qa8avO01w0FR7XuePdiWtj1kNG0eRpvgHozucSUCfD9f7fITc7"/>
+        <div class="p-4">
+        <span class="inline-block bg-gray-700 text-gray-200 text-xs font-semibold px-2 py-1 rounded-full mr-2">User Research</span>
+        </div>
+    </div>
+    <div class="card">
+        <img alt="Glowing cloud icon representing cloud computing" class="w-full h-40 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0q4y49s-JwN8tecp2e-eP5RLOeE2nGW5gc4isQbL3EfRpXLvMUZe93SZeFzcL0iMbNqZPaJG_LLtPSxCQU95vVhBi7D83YKXtm-GEguSi-6U0e8JnBIKV6476FQa2dVm1xeH4urBplUwCB6_ZXUYir_NR8q0w2cNGysP7wjGg11slUOX5B5wyPWGFUi_GE-Zzb0CNW7wbihr2i0v4qU4_Cba2xjv-wC2OaKyuD1yBNSCvG77xL91XGrrTloYnMfK6_5IKYIYPjSIL"/>
+        <div class="p-4">
+        <span class="inline-block bg-gray-700 text-gray-200 text-xs font-semibold px-2 py-1 rounded-full mr-2">Prototyping</span>
+        <span class="inline-block bg-gray-700 text-gray-200 text-xs font-semibold px-2 py-1 rounded-full">Wireframing</span>
+        </div>
+    </div>
+    </div>
+    </section>
+    <section class="py-12" id="projects">
+    <h3 class="section-title">Projects</h3>
+    <div class="space-y-12">
+    <div class="card md:flex">
+    <div class="md:w-2/3 p-6">
+    <p class="text-sm text-pink-500 font-medium mb-1">Featured Project</p>
+    <h4 class="text-xl font-semibold text-gray-100 mb-2">Mobile App Redesign for a Fitness Tracker</h4>
+    <p class="text-gray-400 leading-relaxed">
+            Complete redesign of a mobile app for a fitness tracker, focusing on improving user engagement and usability.
+              </p>
+    </div>
+    <div class="md:w-1/3">
+        <img alt="Mobile app interface for a fitness tracker" class="w-full h-full object-cover md:rounded-r-xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuCv543P7SBEschc1vXA322afohOLBqsf1y87J4MpvnXe8l57-JSXQ87u6YqAVr1c5YJxI7iK7WZdQU5i6V0E0QvoGsdyB3Kay0rFFZojL1KPIZMc1rcYZKXQNB7t8Tdvvn3nJslWRQwvdbXy-V-m9_nmZEHCvlwWle0p7KEG4ArDd3GBpTPH6cyShvwN3Bh_8Sp4Vq10CdAJzzFNk3jKGvM33uXvMCdLm55JIbl5JJfinwy1ecZIa3J_9eCxQMzWI1x-TGYYWgpih"/>
+    </div>
+    </div>
+    <div class="card md:flex">
+    <div class="md:w-2/3 p-6">
+    <p class="text-sm text-pink-500 font-medium mb-1">Featured Project</p>
+    <h4 class="text-xl font-semibold text-gray-100 mb-2">Website Redesign for an E-commerce Platform</h4>
+    </div>
+    <div class="md:w-1/3">
+    </div>
+    </div>
+    </div>
+    </section>
+</main>
+
+<footer class="text-center py-10 text-gray-500 border-t border-gray-700 mt-12">
+<p>© 2023 Diana Prince. All rights reserved.</p>
+<div class="flex justify-center space-x-6 mt-4">
+    <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn" class="text-gray-400 hover:text-pink-500 transition">
+        <span class="material-icons align-middle">linkedin</span>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram" class="text-gray-400 hover:text-pink-500 transition">
+        <span class="material-icons align-middle">instagram</span>
+    </a>
+    <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub" class="text-gray-400 hover:text-pink-500 transition">
+        <span class="material-icons align-middle">code</span>
+    </a>
+</div>
+</footer>
+</div>
+
+</body></html>
